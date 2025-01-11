@@ -9,6 +9,8 @@ export default function App() {
       <GridComponent 
         columnNumber={2}
         data={testList}
+        maxHeight={500}
+        isFull={true}
         renderItem={({item}) => (
           <View>
             <Text>
