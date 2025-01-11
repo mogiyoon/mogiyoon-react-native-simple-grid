@@ -11,10 +11,6 @@ npm install mogiyoon-react-native-simple-grid
 
 
 ```js
-import { GridComponent } from 'mogiyoon-react-native-simple-grid';
-
-// ...
-
 import { Text, SafeAreaView, View } from 'react-native';
 import { GridComponent } from 'mogiyoon-react-native-simple-grid';
 
@@ -84,6 +80,52 @@ export const TestSetting = () => {
 };
 ```
 <img src="https://github.com/user-attachments/assets/f77e2e51-6ce2-4133-ae40-2b5e88a1159f" width="300" height="600"/>
+
+```js
+import React from 'react';
+import styled from 'styled-components/native';
+import { GridComponent } from '../../components/GridComponent';
+
+const Container = styled.View`
+  flex: 1;
+`;
+const StyledContainer = styled.View`
+  height: 120px;
+  background-color: #8e8e8e;
+  border-radius: 5px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+`
+const StyledText = styled.Text`
+  font-size: 30px;
+`;
+
+const testList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+export const TestSetting = () => {
+
+  return (
+    <Container>
+      <GridComponent
+        columnNumber={3}
+        maxHeight={600}
+        isFull={true}
+        data={testList}
+        renderItem={({item}) => (
+          <StyledContainer>
+            <StyledText>
+              {item}
+            </StyledText>
+          </StyledContainer>
+        )}
+      />
+    </Container>
+  );
+};
+```
+<img src="https://github.com/user-attachments/assets/ab6bbd72-bb16-4769-9ce6-f88a173a8a13" width="300" height="600"/>
+
 
 ## Contributing
 
