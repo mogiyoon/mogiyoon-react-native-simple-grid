@@ -41,7 +41,7 @@ export default function App() {
 ```js
 import React from 'react';
 import styled from 'styled-components/native';
-import { GridComponent } from '../../components/GridComponent';
+import { GridComponent } from 'mogiyoon-react-native-simple-grid';
 
 const Container = styled.View`
   flex: 1;
@@ -84,7 +84,7 @@ export const TestSetting = () => {
 ```js
 import React from 'react';
 import styled from 'styled-components/native';
-import { GridComponent } from '../../components/GridComponent';
+import { GridComponent } from 'mogiyoon-react-native-simple-grid';
 
 const Container = styled.View`
   flex: 1;
