@@ -1,7 +1,7 @@
 {
   "name": "mogiyoon-react-native-simple-grid",
-  "version": "0.1.2",
-  "description": "Making react-native simple grid",
+  "version": "0.2.2",
+  "description": "Make react-native simple grid",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -20,11 +20,6 @@
   "files": [
     "src",
     "lib",
-    "android",
-    "ios",
-    "cpp",
-    "*.podspec",
-    "react-native.config.js",
     "!ios/build",
     "!android/build",
     "!android/gradle",
@@ -70,7 +65,6 @@
     "@release-it/conventional-changelog": "^9.0.2",
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
-    "@types/styled-components-react-native": "^5.2.5",
     "commitlint": "^17.0.2",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
@@ -83,7 +77,6 @@
     "react-native": "0.76.6",
     "react-native-builder-bob": "^0.35.2",
     "release-it": "^17.10.0",
-    "styled-components": "^6.1.14",
     "typescript": "^5.2.2"
   },
   "resolutions": {
