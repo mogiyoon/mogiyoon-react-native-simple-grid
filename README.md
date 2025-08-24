@@ -1,6 +1,5 @@
 # mogiyoon-react-native-simple-grid
-https://www.npmjs.com/package/mogiyoon-react-native-simple-grid
-!!!Making react-native simple grid!!!
+!!!Make react-native simple grid!!!
 ## Installation
 
 ```sh
