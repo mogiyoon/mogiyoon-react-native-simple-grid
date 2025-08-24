@@ -1,6 +1,6 @@
 {
   "name": "mogiyoon-react-native-simple-grid",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Make react-native simple grid",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
